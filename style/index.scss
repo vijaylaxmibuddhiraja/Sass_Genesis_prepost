@@ -1,5 +1,16 @@
 @use 'fonts';
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: fonts.$main-font;
+    color: black;
+}
+
 @import 'main';
 @import 'header';
 
