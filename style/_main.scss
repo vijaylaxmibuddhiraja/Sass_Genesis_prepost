@@ -1,6 +1,52 @@
-@import 'header';
-
 body {
     max-width: 100%;
     margin: 0 auto;
 }
+
+@import 'header';
+
+.intro-container {
+    max-width: 1109px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+    .intro-left{
+        /*width: 100%;*/
+        max-width: 635px;
+        min-height: 251px;
+        margin-top: 5%;
+        margin-left: 20px;
+    }
+ 
+    .intro-stars{
+        font-size: 15px;
+        color: #4A4FF2;
+    }
+
+    .intro-container .introduction {
+        font-size: 25px;
+        line-height: 35px;
+        color: black;
+        width: 400px;
+        height: 180px;
+    }
+
+    .color-word{
+        color: #4A4FF2;
+    }
+
+    .intro-right .intro-line{
+        width: 25px; 
+        margin-top: 8%;  
+    }
+
+   .intro-right .intro-slogan {
+        width: 212px;
+        margin-right:65px;
+        margin-top:5%;
+   }    
+    
