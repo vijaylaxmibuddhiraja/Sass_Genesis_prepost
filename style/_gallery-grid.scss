@@ -1,11 +1,13 @@
-.grid-gallery{
+.grid{
     width: 100%;
     max-width:1110px;
-    max-height: 1960px;
-    margin: 0 auto;
-    padding-top: 50px;
+    min-height: 1960px;
+    // margin: 0 auto;
+    margin-left: 15%;
+    padding-top: 20px;
+
 }
-.gall-container{
+.grid-container{
     box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(9, auto);
@@ -60,8 +62,10 @@
     grid-row: 24/ span 5;
     grid-column: 5/ span 2;
 }
-.art{
+
+.grid-images{
     height: 100%;
 	width: 100%;
 	object-fit: cover;
 }
+
