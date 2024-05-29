@@ -1,9 +1,7 @@
-body {
-    max-width: 100%;
-    margin: 0 auto;
-}
+@use 'fonts';
+@import './header';
 
-@import 'header';
+
 
 .intro-container {
     max-width: 1109px;
@@ -13,7 +11,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
+
     .intro-left{
         /*width: 100%;*/
         max-width: 635px;
@@ -27,18 +25,18 @@ body {
         color: #4A4FF2;
     }
 
-    .intro-container .introduction {
+    .introduction  {
         font-size: 25px;
         line-height: 35px;
         color: black;
         width: 400px;
         height: 180px;
     }
-
+}
     .color-word{
         color: #4A4FF2;
     }
-
+     
     .intro-right .intro-line{
         width: 25px; 
         margin-top: 8%;  
@@ -48,5 +46,8 @@ body {
         width: 212px;
         margin-right:65px;
         margin-top:5%;
-   }    
+   }
+
+   @import '/gallery-grid';
+ 
     

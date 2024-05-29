@@ -1,0 +1,67 @@
+.grid-gallery{
+    width: 100%;
+    max-width:1110px;
+    max-height: 1960px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.gall-container{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(9, auto);
+    grid-template-rows: repeat(32, auto);
+    gap: 20px; 
+}
+.gallone{
+    grid-row: 1/ span 6;
+    grid-column: 1/ span 2;
+}
+.galltwo{
+    grid-row: 1/span 5;
+    grid-column: 3/ span 2;
+}
+.three{
+    grid-row: 1/ span 9;
+    grid-column: 5/ span 2;
+}
+.four{
+    grid-row: 7/ span 7;
+    grid-column: 1/ span 2;
+}
+.five{
+    grid-row: 6/ span 6;
+    grid-column: 3/ span 2;
+}
+.six{
+    grid-row: 10/ span 6;
+    grid-column: 5/ span 2;
+}
+.seven{
+    grid-row:14/ span 7;
+    grid-column: 1/ span 2;
+}
+.eight{
+    grid-row:12/ span 8;
+    grid-column: 3/ span 2;
+}
+.nine{
+    grid-row: 16/ span 8;
+    grid-column: 5/ span 2;
+}
+.ten{
+    grid-row: 21/ span 8;
+    grid-column: 1/ span 2;
+}
+.eleven{
+    grid-row: 20/span 9;
+    grid-column: 3/ span 2;
+}
+.twelve{
+    grid-row: 24/ span 5;
+    grid-column: 5/ span 2;
+}
+.art{
+    height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
