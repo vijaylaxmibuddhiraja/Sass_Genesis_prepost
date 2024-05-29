@@ -3,6 +3,7 @@
 
 
 
+
 .intro-container {
     max-width: 1109px;
     margin: 0 auto;
@@ -48,6 +49,6 @@
         margin-top:5%;
    }
 
-   @import '/gallery-grid';
+   @import './gallery-grid';
  
     
