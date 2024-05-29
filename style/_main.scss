@@ -27,10 +27,10 @@
     }
 
     .introduction  {
-        font-size: 25px;
-        line-height: 35px;
+        font-size: 28px;
+        line-height:40px;
         color: black;
-        width: 400px;
+        width: 500px;
         height: 180px;
     }
 }
@@ -47,8 +47,45 @@
         width: 212px;
         margin-right:65px;
         margin-top:5%;
+        font-size: 13px;
+        font-weight: 400;
    }
 
    @import './gallery-grid';
+
+   .section-container_1{
+    width: 100%;
+    max-width: 1079px;
+    min-height: 106px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+   }
+    
+    .text-1{
+        width: 550px;
+        height: 106px;
+        font-size: 25px;
+        font-weight:bolder;
+        margin-left: 10px;
+    }
+
+    .text-2 {
+        margin-right: 20px;
+        font-size: 15px;
+        list-style: none;
+        padding-top: 5px;
+    }
+
+    .text-3 {
+        margin-right: 45px;
+        font-size: 15px;
+        list-style: none;
+        padding-top: 5px;
+    }
+ 
+
+
+   
  
     
