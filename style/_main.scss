@@ -190,8 +190,64 @@
         margin-top: 30px;
     }
 
+    .section-container_3{
+        width: 100%;
+        max-width: 1110px;
+        // min-height: 823px;
+        margin: 0 auto;
+        display: flex;      
+       }
+
+    .awards_caption1{
+        padding-top: 30%;
+        padding-left: 20px;
+    }
     
-   
+    .awards_sub-container-2 {
+        margin: 0 auto;
+    }
+    .awards_caption-4 {
+        margin-top: 50px;
+        margin-left: 28%;
+         width: 900px;
+        // height: 20px;
+        font-size: 14px;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-around;
+    }
+    .awards_caption-5 {
+        margin-top: 50px;
+        margin-left: 28%;
+         width: 900px;
+        // height: 20px;
+        font-size: 14px;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .awards_list-c {
+        list-style: none;
+        width: 190px;
+        height: 110px;   
+        // margin-left: 40%;
+    }
+
+    .awards_list-c .list_sub-e {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    
+    .awards_list-c .list_sub-f {
+       height: 104px;
+       width: 126px;
+       font-size: 11px;
+       font-weight: lighter;
+       line-height: 18px;
+       margin-top: 10px;
+     }
+
     
     
       
