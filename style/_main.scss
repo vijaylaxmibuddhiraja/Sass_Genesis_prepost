@@ -99,10 +99,20 @@
        
     }
 
+    .section-container{
+        width: 100%;
+        max-width: 1110px;
+        min-height: 823px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 20px;
+    }
+
     .section-container_2{
         width: 100%;
         max-width: 1110px;
-        // min-height: 823px;
+       /* min-height: 823px;*/
         margin: 0 auto;
         display: flex;      
        }
@@ -193,7 +203,7 @@
     .section-container_3{
         width: 100%;
         max-width: 1110px;
-        // min-height: 823px;
+         /*min-height: 823px;*/
         margin: 0 auto;
         display: flex;      
        }
@@ -248,6 +258,12 @@
        margin-top: 10px;
      }
 
-    
+     .hr3 {
+        width: 1080px;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    @import './footer'
     
       

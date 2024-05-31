@@ -1,0 +1,41 @@
+.footer_container{
+   /* width:100%;*/
+    max-width: 1110px;
+    min-height: 23px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:5%;
+}
+.footer_logo img {
+    height: 100%;    
+}
+
+
+.footer_navbar {
+    display: flex;
+    align-items: center;
+
+    &__list, &_social-links {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    &__menu{
+    
+     text-decoration: none;
+     padding: 20px;
+    }
+
+   &__li{
+    font-size: 15px;
+    text-decoration: none;
+   }
+}
+            
+
+
+    
