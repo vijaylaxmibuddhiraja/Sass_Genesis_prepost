@@ -3,7 +3,7 @@
 }
 
 .contact__container {
-    width:100%;
+    // width:100%;
     max-width: 1110px;
     margin: 0 auto;
     padding-top: 50px;
@@ -12,6 +12,9 @@
     align-items: center;
 }
 
+.contact__content-left{
+    margin-right: 15%;
+}
 .contact__title {
     margin-top: 13%;
     max-width:350px;
@@ -59,4 +62,10 @@
     cursor: pointer;
 }
 
+.contact_map{
+    max-width: 1110px;
+    min-width: 470px;
+    margin: 0 auto;
+    margin-top: 12%;
+}
 
