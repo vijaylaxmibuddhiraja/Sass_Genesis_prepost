@@ -98,9 +98,12 @@
     }
  
     .hr1 {
-       max-width: 1070px;
-       margin-left: 21%;
-       margin-top: 30px;
+        width: 1080px;
+        margin: 0 auto;
+        margin-top: 30px;
+    //    max-width: 1070px;
+    //    margin-left: 21%;
+    //    margin-top: 30px;
        
     }
 
@@ -133,7 +136,8 @@
     .awards_caption-2 {
         margin-top: 50px;
         margin-left: 28%;
-         width: 900px;
+         max-width: 900px;
+         width: 100%;
         // height: 20px;
         font-size: 14px;
         font-weight: bold;
@@ -144,7 +148,8 @@
 
     .awards_list-a {
         list-style: none;
-        width: 190px;
+        max-width:190px;
+        width: 100%;
         height: 110px;   
     }
 
@@ -155,7 +160,8 @@
     
     .awards_list-a .list_sub-b {
        height: 104px;
-       width: 126px;
+       max-width: 126px;
+       width: 100%;
        font-size: 11px;
        font-weight: lighter;
        line-height: 18px;
@@ -165,8 +171,8 @@
     .awards_caption-3 {
         margin-top: 10%;
         margin-left: 28%;
-         width: 900px;
-        // height: 20px;
+        width: 900px;
+       // height: 20px;
         font-size: 14px;
         font-weight: bold;
         display:flex;
@@ -224,7 +230,7 @@
     .awards_caption-4 {
         margin-top: 50px;
         margin-left: 28%;
-         width: 900px;
+        width: 900px;
         // height: 20px;
         font-size: 14px;
         font-weight: bold;
@@ -234,7 +240,7 @@
     .awards_caption-5 {
         margin-top: 50px;
         margin-left: 28%;
-         width: 900px;
+        width: 900px;
         // height: 20px;
         font-size: 14px;
         font-weight: bold;
