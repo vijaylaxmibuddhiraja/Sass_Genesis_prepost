@@ -55,7 +55,7 @@
     font-size: 14px;
 }
 
-.contact__button{
+%button{
      margin-top: 38px;
     // margin-bottom: 120px;
     padding: 15px;
@@ -65,6 +65,15 @@
     border: none;
     width: 125px;
     cursor: pointer;
+}
+
+.contact__button{
+    @extend %button;
+    &:hover {
+        background-color:antiquewhite;
+        color: darkblue;
+        transition: all 0.3s ease;
+    }
 }
 
 .contact_map{
